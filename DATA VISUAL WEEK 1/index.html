@@ -1,0 +1,35 @@
+<!DOCTYPE html>                                                              
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3D Scatter Plot Projection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>3D Scatter Plot Projection</h1>
+    
+    <label for="projection">Projection:</label>
+    <select id="projectionSelect">
+        <option value="orthographic">Orthographic</option>
+        <option value="perspective">Perspective</option>
+    </select>
+
+    <label for="yaw">Yaw:</label>
+    <input type="range" id="yaw" min="0" max="360" value="0">
+
+    <label for="pitch">Pitch:</label>
+    <input type="range" id="pitch" min="0" max="360" value="0">
+
+    <label for="roll">Roll:</label>
+    <input type="range" id="roll" min="0" max="360" value="0">
+
+    <input type="checkbox" id="autoRotate" checked>
+    <label for="autoRotate">Auto Rotate</label>
+
+    <canvas id="canvas" width="900" height="600"></canvas>
+    
+    <div class="signature"><bold>NARMATHADEVI M</bold></div>
+    <script src="ss.js"></script>
+</body>
+</html>
