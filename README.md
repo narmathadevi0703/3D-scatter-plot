@@ -179,6 +179,8 @@ During execution:
 The result is an interactive 3D point cloud visualization that demonstrates the fundamental principles of computer graphics, coordinate transformations, and projection techniques.
 Output:
 <img width="945" height="489" alt="image" src="https://github.com/user-attachments/assets/4404e3f6-e14b-4d6c-b42a-b0133697d0df" />
+<img width="940" height="483" alt="image" src="https://github.com/user-attachments/assets/05cb229b-f5e8-4157-b03b-c3bc5e16d2b8" />
+
 
 
 
